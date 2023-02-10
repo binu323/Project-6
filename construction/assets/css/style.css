@@ -1,0 +1,549 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*.container{
+	margin: 0px auto;
+	min-height: 1080px;
+}*/
+/*TOP HEADER CSS START*/
+section.top-header{
+	background: #1f2d30;
+	height: 46px;
+}
+.top-header .row .col-md-6{
+
+}
+.top-header .row .col-md-6 .top-header-left{
+	margin-top: 11px;
+}
+.top-header .row .col-md-6 .top-header-left ul{
+
+}
+.top-header .row .col-md-6 .top-header-left ul li{
+	display: inline-block;
+	margin-left: 12px;
+}
+.top-header .row .col-md-6 .top-header-left li a{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+}
+.top-header .row .col-md-6 .top-header-right{
+	text-align: right;
+}
+.top-header .row .col-md-6 .top-header-right ul{
+
+}
+.top-header .row .col-md-6 .top-header-right ul li{
+	display: inline-block;
+	margin-left: 12px;
+}
+.top-header .row .col-md-6 .top-header-right li a{
+	color: #fff;
+	font-weight: 500;
+	font-size: 12px;
+}
+.top-header .row .col-md-6 .top-header-right button{
+	width: 130px;
+	padding: 12px;
+	background: #fcc236;
+	border: 2px solid #fcc236;
+	color: #fff;
+}
+.top-header .row .col-md-6 .top-header-right button:hover{
+	color: #000;
+}
+/*TOP HEADER CSS END*/
+/*TOP 2ND HEADER CSS START*/
+section.second-top-header{
+	background: #ffffffeb;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+}
+.second-top-header .row {
+
+}
+.second-top-header .row .col-md-2{
+
+}
+.second-top-header .row .col-md-2 .second-top-header-logo{
+
+	padding: 12px;
+}
+.second-top-header .row .col-md-2 .second-top-header-logo img{
+
+}
+.second-top-header .row .col-md-8{
+
+}
+.second-top-header .row .col-md-8 .second-top-header-menubar{
+
+}
+.second-top-header .row .col-md-8 .second-top-header-menubar ul{
+	
+	text-align: center;
+	
+	margin: 0px;
+	
+	padding: 18px;
+}
+.second-top-header .row .col-md-8 .second-top-header-menubar ul li{
+	
+	display: inline-block;
+}
+
+.second-top-header .row .col-md-8 .second-top-header-menubar li a{
+	
+	color: #000;
+	
+	font-weight: 500;
+	text-decoration: none;
+	
+	padding-left: 36px;
+	transition: ease 0.3s;
+}
+.second-top-header .row .col-md-8 .second-top-header-menubar li a:hover{
+	color:#fcc236;
+}
+.second-top-header .row .col-md-2 .second-top-header-search{
+
+}
+.second-top-header .row .col-md-2 .second-top-header-search form{
+
+}
+.second-top-header .row .col-md-2 .second-top-header-search form .form-group{
+	
+	position: relative;
+	
+	margin-top: 10px;
+	
+	margin-bottom: 0px;
+}
+.second-top-header .row .col-md-2 .second-top-header-search form .form-group input{
+	border: 0;
+	border-bottom: 1px solid #bfbfbf;
+	border-radius: 0;
+	padding: 0;
+	background: transparent;
+	/* color: #bfbfbf; */
+}
+
+.second-top-header .row .col-md-2 .second-top-header-search form .form-group input::-webkit-input-placeholder { /* Edge */
+	color: #fcc236;
+}
+
+.second-top-header .row .col-md-2 .second-top-header-search form .form-group input::-ms-input-placeholder { /* Internet Explorer */
+	color: #fcc236;
+}
+
+.second-top-header .row .col-md-2 .second-top-header-search form .form-group input::placeholder {
+	color: #fcc236;
+	text-transform: uppercase;
+}
+.second-top-header .row .col-md-2 .second-top-header-search button{
+
+	border: none;
+
+	background: transparent;
+
+	position: absolute;
+
+	top: 8px;
+
+	color: #bfbfbf;
+
+	right: 0;
+}
+/*TOP 2ND HEADER CSS END*/
+
+/*banner background css start*/
+section.banner_background{
+ background-image: linear-gradient(rgb(31 45 48 / 57%), rgb(31 45 48 / 50%)), url(../../assets/img/download.webp);
+ height: 400px;
+ position: relative;
+}
+section.banner_background .banner_background_text_wrapper{
+
+}
+.banner_background_text {
+    color: #fff;
+    position: absolute;
+    right: 650px;
+    top: 130px;
+    text-align: center;
+}
+.banner_background .banner_background_text_wrapper .banner_background_text{
+
+}
+.banner_background .banner_background_text_wrapper .banner_background_text h1{
+
+}
+.banner_background .banner_background_text_wrapper .banner_background_text h2{
+
+}
+/*banner background css end*/
+
+/*9 IMAGES BOX CSS START*/
+section.images-box-container{
+
+}
+section.images-box-container .row{
+
+}
+section.images-box-container .row .col-md-4{ 
+
+}
+section.images-box-container .row .col-md-4 .images-box{
+	text-align: left;
+	padding: 12px 0px;
+}
+section.images-box-container .row .col-md-4 .images-box img{
+	height: 100%;
+	width: 100%;
+}
+section.images-box-container .row .col-md-4 .images-box a{
+	border: 2px solid white;
+	padding: 12px;
+	border-radius: 25px;
+	background: #1f2d30;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 52px;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+section.images-box-container .row .col-md-4 .images-box p{
+	padding-top: 28px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #606060;
+	transition: all 0.3s ease-out;
+}
+section.images-box-container .row .col-md-4 .images-box a:hover{
+	color: #000;
+	background: #fcc236;
+	cursor: pointer;
+}
+section.images-box-container .row .col-md-4 .images-box button{
+	background: transparent;
+	border: none;
+	padding: 6px;
+	font-weight: 700;
+	padding-left: 0px;
+	color: #b6b6b6;
+	transition: all 0.3s ease-out;
+}
+section.images-box-container .row .col-md-4 .images-box button i {
+	color: #b6b6b6;
+	transition: all 0.3s ease-out;
+}
+/*i.fa{
+	color: #b6b6b6;
+}*/
+section.images-box-container .row .col-md-4 .images-box p:hover{
+	color: #fcc236;
+	cursor: pointer;
+}
+section.images-box-container .row .col-md-4 .images-box button:hover,
+section.images-box-container .row .col-md-4 .images-box button:hover i {
+	color: #fcc236;
+	cursor: pointer;
+}
+/*section.images-box-container .row .col-md-4 .images-box button:hover i {
+	color: #fcc236;
+	cursor: pointer;
+}*/
+/*section.images-box-container .row .col-md-4 .images-box i.fa.fa-arrow-right:hover{
+    color: #fcc236;
+    cursor: pointer;
+}*/
+/*9 IMAGES BOX CSS END*/
+/*subscribe css start*/
+section.subscribe-section{
+
+	padding: 30px 5px;
+	height: 400px;
+	background: #fafafa;
+}
+.subscribe-section .row{
+	padding-top: 70px;
+}
+.subscribe-section .row .col-md-3{
+
+}
+.subscribe-section .row .col-md-6{
+
+}
+.subscribe-section .row .col-md-6 .subscribe-section-text{
+
+	text-align: center;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-text span{
+	color:#fcc236;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-text h1{
+
+	font-size: 30px;
+
+	font-weight: 700;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-text p{
+
+	font-size: 20px;
+
+	color: #606060;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-email{
+
+	margin-top: 70px;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-email input{
+
+	width: 75%;
+
+	padding: 9px;
+
+	border: none;
+
+	border-bottom: 1px solid #b6b6b6;
+
+	background: #fafafa;
+
+	text-align: left;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-email button{
+
+	padding: 8px 12px;
+
+	background: #fcc236;
+
+	border: 2px solid #fcc236;
+
+	font-weight: 600;
+
+	color: #fff;
+
+	margin-left: 4px;
+	transition: all 0.3s ease-out;
+}
+.subscribe-section .row .col-md-6 .subscribe-section-email button:hover{
+	color: #000;
+	border: 2px solid #000;
+	background: transparent;
+}
+.subscribe-section .row .col-md-3 .subscribe-section-image{
+
+}
+.subscribe-section .row .col-md-3 .subscribe-section-img img{
+	height: 100%;
+	width: 100%;
+}
+
+/*subscribe css end*/
+/*footer part 1 css start*/
+section.footer-part-1 {
+	background: #1f2d30;
+	color: #fff;
+	height: 150px;
+	padding-top: 60px;
+	text-align: center;
+}
+.footer-part-1 .row{
+
+}
+.footer-part-1 .row .col-md-4{
+
+}
+.footer-part-1 .row .col-md-4 .footer-box{
+
+	position: relative;
+
+	padding-left: 18px;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-map-marker{
+
+	border: 1px solid white;
+
+	border-radius: 500px;
+
+	color: white;
+
+	font-size: 30px;
+
+	padding: 10px 18px;
+	transition: all 0.3s ease-out;
+
+	position: absolute;
+
+	left: -6%;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-map-marker:hover{
+	background: #fcc236;
+	color: white;
+}
+.footer-part-1 .row .col-md-4 .footer-box p{
+
+	color: white;
+
+	font-size: 18px;
+
+	font-weight: 500;
+
+	justify-content: justify;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-globe{
+
+	border: 1px solid white;
+
+	border-radius: 500px;
+
+	color: white;
+	transition: all 0.3s ease-out;
+
+	font-size: 30px;
+
+	padding: 10px 13px;
+
+	position: absolute;
+
+	left: 10%;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-globe:hover{
+	background: #fcc236;
+	color: white;
+}
+.footer-part-1 .row .col-md-4 .footer-box a{
+
+	color: #fff;
+
+	text-decoration: none;
+
+	font-size: 18px;
+
+	font-weight: 500;
+}
+.footer-part-1 .row .col-md-4 .footer-box a:hover{
+	color: #fcc236;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-phone{
+
+	border: 1px solid white;
+
+	border-radius: 500px;
+
+	color: white;
+	transition: all 0.3s ease-out;
+
+	font-size: 30px;
+
+	padding: 10px 13px;
+
+	position: absolute;
+
+	left: 10%;
+}
+.footer-part-1 .row .col-md-4 .footer-box i.fa.fa-phone:hover{
+	background: #fcc236;
+	color: white;
+}
+/*footer part 1 css end*/
+/*footer parrt 2 css start*/
+section.footer-part-2 {
+	height: 500px;
+	padding-top: 120px;
+	background-image: linear-gradient(rgb(31 45 48 / 87%), rgb(31 45 48 / 86%)), url(../../assets/img/download.webp);
+	background-repeat: no-repeat;
+	/* object-fit: cover; */
+	background-attachment: fixed;
+	color: #fff;
+	background-size: cover;
+}
+section.footer-part-2 .row{
+
+}
+section.footer-part-2 .row .col-md-3{
+
+	padding: 26px;
+}
+section.footer-part-2 .row .col-md-3 h2{
+
+	font-size: 24px;
+}
+section.footer-part-2 .row .col-md-3 p{
+
+	padding: 14px 0px;
+}
+section.footer-part-2 .row .col-md-3 .footer-h2{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-h2 h2{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-list{
+
+	line-height: 38px;
+
+	padding: 6px 0px;
+}
+section.footer-part-2 .row .col-md-3 .footer-list ul{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-list ul li{
+	list-style: none;
+	transition:all 0.3s ease-out;
+}
+section.footer-part-2 .row .col-md-3 .footer-list ul li:hover{
+	color:#fcc236;
+}
+section.footer-part-2 .row .col-md-3 .footer-list .footer-ul{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-img{
+
+	padding: 14px 0px;
+}
+section.footer-part-2 .row .col-md-3 .footer-img .row{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-img .row .col-md-4{
+
+}
+section.footer-part-2 .row .col-md-3 .footer-img .row .col-md-4 img{
+
+	padding: 6px 0px;
+}
+/*footer parrt 2 css end*/
+/*section cover css start*/
+.section-cover .button-wrapper button {
+	color: #fff;
+	background: #fcc236;
+	border: 2px solid #fcc236;
+	box-shadow: 1px 1px 6px -1px;
+	position: fixed;
+	right: 4px;
+	bottom: 4px;
+	border-radius: 4px;
+}
+
+.section-cover .button-wrapper button i.fa.fa-angle-up {
+	padding: 18px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.section-cover {
+	position: relative;
+	padding-top: 100px;
+}
+/*section cover css end*/
+footer{
+	padding: 20px;
+	text-align: center;
+	background: #fcc236;
+	color: #fff;
+	font-weight: 500;
+}
